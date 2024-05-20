@@ -30,6 +30,9 @@ public class Main {
                 convertedAmount = amountInEuro * RUB;
                 System.out.println(amountInEuro + " EUR sind " + convertedAmount + " RUB.");
                 break;
+            case "EUR":
+                convertedAmount = amountInEuro;
+                System.out.println( amountInEuro +" EUR sind "+ convertedAmount + " EUR...? Haha, du Spaßvogel.");
             default:
                 System.out.println("Ungültige Zielwährung. Bitte geben Sie USD oder RUB ein.");
                 break;
